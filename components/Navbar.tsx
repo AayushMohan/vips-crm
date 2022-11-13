@@ -4,6 +4,7 @@ import {
   CalendarDaysIcon,
   EnvelopeIcon,
   HomeIcon,
+  QuestionMarkCircleIcon,
   UsersIcon,
 } from "@heroicons/react/20/solid";
 
@@ -11,7 +12,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="flex flex-col p-3 bg-violet-100/50 dark:bg-black dark:text-white/80 w-1/4 h-screen text-black items-start">
+    <div className="flex flex-col bg-violet-100/50 dark:bg-black dark:text-white/80 w-1/5 h-screen text-black items-start overflow-y-scroll">
       <h1 className="h-10 m-10">VIPS-CRM</h1>
 
       <div className="flex ml-8 items-center">
@@ -27,7 +28,7 @@ const Navbar = (props: Props) => {
       </div>
 
       {/* Page Links */}
-      <div className="flex flex-col items-center ">
+      <div className="flex flex-col ">
         <div className="flex ml-8 mt-16 items-center space-x-6 cursor-pointer dark:hover:bg-slate-900 px-10 py-4 rounded-lg">
           <HomeIcon className="h-7" />
           <h2>Home</h2>
@@ -47,6 +48,24 @@ const Navbar = (props: Props) => {
             8
           </span>
         </div>
+      </div>
+
+      <hr className="dark:bg-white w-full" />
+
+      <div>
+        <img
+          src="https://cdni.iconscout.com/illustration/premium/thumb/presentation-3428083-2930636.png"
+          alt="Presentation SVG"
+          className=""
+        />
+      </div>
+      {/* <div>
+        <h1>Support</h1>
+      </div> */}
+
+      <div className="flex items-center ml-8 space-x-2 pb-8 cursor-pointer">
+        <QuestionMarkCircleIcon className="h-8" />
+        <h1>Need Help?</h1>
       </div>
     </div>
   );
