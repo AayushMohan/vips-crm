@@ -35,27 +35,27 @@ const Navbar = (props: Props) => {
 
       {/* Page Links */}
       <div className="flex flex-col ">
-        <div className="flex ml-8 mt-16 items-center space-x-6 cursor-pointer  px-10 py-4 rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
-          <HomeIcon className="h-7 text-violet-300 active:text-white hover:text-white" />
+        <div className="flex ml-8 mt-16 mb-2 items-center space-x-6 cursor-pointer  px-10 py-3 rounded-lg bg-purple-500/70 text-white">
+          <HomeIcon className="h-7 text-white" />
           <h2>Home</h2>
         </div>{" "}
         {/*  */}
-        <div className="flex items-center ml-8 space-x-4 cursor-pointer  px-10 py-4 rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
+        <div className="flex items-center ml-8 space-x-4 cursor-pointer  px-10 py-4 rounded-lg hover:bg-purple-500/70 hover:text-white/90 text-gray-500">
           <UsersIcon className="h-7 text-violet-300 active:text-white hover:text-white" />
           <h2>Employees</h2>
         </div>{" "}
-        <div className="flex items-center ml-8 space-x-4 cursor-pointer  px-10 py-4 rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
+        <div className="flex items-center ml-8 space-x-4 cursor-pointer  px-10 py-4 rounded-lg hover:bg-purple-500/70 hover:text-white/90 text-gray-500">
           <CalendarDaysIcon className="h-7 text-violet-300 active:text-white hover:text-white" />
           <h2>Calendar</h2>
         </div>{" "}
-        <div className="flex items-center ml-8 space-x-4 cursor-pointer px-10 py-4 rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
+        <div className="flex items-center ml-8 space-x-4 cursor-pointer px-10 py-4 rounded-lg hover:bg-purple-500/70 hover:text-white/90 text-gray-500">
           <EnvelopeIcon className="h-7 text-violet-300 active:text-white hover:text-white" />
           <h2>Messages</h2>
           <span className="text-xs space-x-14 bg-red-500 px-2 py-1 rounded-full text-white">
             8
           </span>
         </div>
-        <div className="flex items-center ml-8 space-x-4 cursor-pointer px-10 py-4 rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
+        <div className="flex items-center ml-8 space-x-4 cursor-pointer px-10 py-4 rounded-lg hover:bg-purple-500/70 hover:text-white/90 text-gray-500">
           <UserCircleIcon
             className="h-7 text-violet-300 active:text-white hover:text-white"
             onClick={session ? signOut : signIn}
