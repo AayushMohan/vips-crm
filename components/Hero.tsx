@@ -1,5 +1,6 @@
 import { PlusIcon } from "@heroicons/react/20/solid";
 import React from "react";
+import Cards from "./Cards";
 
 type Props = {};
 
@@ -14,6 +15,7 @@ const Hero = (props: Props) => {
           Add an employee
         </button>
       </div>
+      <Cards />
     </div>
   );
 };
