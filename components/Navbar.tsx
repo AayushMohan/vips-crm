@@ -16,9 +16,8 @@ const Navbar = (props: Props) => {
   const { data: session } = useSession();
 
   return (
-    <div className="flex flex-col bg-violet-100/50 w-1/5 h-screen text-black items-start overflow-y-scroll">
+    <div className="flex flex-col bg-violet-100/50 w-1/5 h-screen items-start overflow-y-scroll">
       <h1 className="h-10 m-10">Vipschedulux</h1>
-
       <div
         className="flex ml-8 items-center"
         title={session ? "Sign Out" : "Sign In"}

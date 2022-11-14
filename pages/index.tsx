@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex">
+    <div className="flex bg-violet-300/10 text-purple-900">
       <Head>
         <title>VIPS CRM</title>
         <link rel="icon" href="/favicon.ico" />
