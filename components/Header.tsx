@@ -22,12 +22,12 @@ const Header = (props: Props) => {
           type="search"
           name="Search"
           id=""
-          className="h-4 px-14 w-96 py-5 rounded-2xl outline-none"
+          className="h-4 px-14 w-96 py-5 rounded-xl outline-none shadow-sm"
           placeholder="Search"
         />
       </div>
-      <BellIcon className="h-10 absolute -right-[450px] cursor-pointer -mx-4 text-violet-600/60" />
-      <Cog6ToothIcon className="h-9 cursor-pointer absolute -right-[500px] -mx-4 text-violet-600/60" />
+      <BellIcon className="h-8 absolute -right-[450px] cursor-pointer -mx-4 text-violet-600/60" />
+      <Cog6ToothIcon className="h-8 cursor-pointer absolute -right-[500px] -mx-4 text-violet-600/60" />
     </div>
   );
 };
