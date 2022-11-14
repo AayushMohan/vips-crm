@@ -16,8 +16,8 @@ const Navbar = (props: Props) => {
   const { data: session } = useSession();
 
   return (
-    <div className="flex flex-col bg-violet-100/50 w-[300px] shadow-md h-screen items-start overflow-y-scroll">
-      <h1 className="h-10 m-10">Vipschedulux</h1>
+    <div className="flex flex-col bg-[#f6eff7]/10 w-[290px] shadow-md h-screen items-start overflow-y-scroll">
+      <h1 className="h-10 m-10 text-xl font-semibold">Vipschedulux</h1>
       <div
         className="flex ml-8 items-center"
         title={session ? "Sign Out" : "Sign In"}
@@ -77,7 +77,7 @@ const Navbar = (props: Props) => {
         <h1>Support</h1>
       </div> */}
 
-      <div className="flex items-center ml-8 space-x-2 px-10 py-4 mb-8 cursor-pointer rounded-lg hover:bg-violet-500 hover:text-white/90 text-gray-500">
+      <div className="flex items-center ml-8 space-x-2 px-10 py-4 mb-8 cursor-pointer rounded-lg hover:bg-purple-500/70 hover:text-white/90 text-gray-500">
         <QuestionMarkCircleIcon className="h-8 text-violet-300 active:text-white hover:text-white" />
         <h1>Need Help?</h1>
       </div>

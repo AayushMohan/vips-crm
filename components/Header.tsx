@@ -12,7 +12,7 @@ type Props = {};
 const Header = (props: Props) => {
   const { data: session } = useSession();
   return (
-    <div className="flex mt-3 relative p-5 flex-row justify-evenly items-center space-x-96">
+    <div className="flex mt-3 relative p-5 flex-row justify-evenly items-center space-x-96 ">
       <div>
         <h1 className="text-lg font-semibold">Hi, {session?.user?.name}</h1>
       </div>

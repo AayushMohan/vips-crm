@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-row bg-violet-300/10 text-purple-900">
+    <div className="flex relative flex-row  bg-[#cab8ea]/10  text-purple-900 ">
       <Head>
         <title>VIPS CRM</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,11 +16,8 @@ const Home: NextPage = () => {
         <Navbar />
       </section>
 
-      <section id="header">
+      <section id="">
         <Header />
-      </section>
-
-      <section id="Hero">
         <Hero />
       </section>
     </div>
